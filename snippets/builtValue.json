@@ -65,6 +65,22 @@
             ],
             "description": "Built Value Enum"
         },
+        "Built Value Enum (Serializable)": {
+            "prefix": "bves",
+            "body": [
+                "class ${1} extends EnumClass {",
+                "",
+                "\t${0:// static const ${1} yes = _\\$yes;}",
+                "",
+                "\tconst ${1}._(String name) : super(name);",
+                "",
+                "\tstatic BuiltSet<${1}> get values => _\\$values;",
+                "\tstatic ${1} valueOf(String name) => _\\$valueOf(name);",
+                "\tstatic Serializer<${1}> get serializer => _\\$${1/(^[A-z]{1})/${1:/downcase}/}Serializer;",
+                "}"
+            ],
+            "description": "Built Value Enum (Serializable)"
+        },
         "Built Value Serializers": {
             "prefix": "bvs",
             "body": [
