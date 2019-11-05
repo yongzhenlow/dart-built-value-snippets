@@ -25,15 +25,17 @@ ext install yongzhenlow.dart-built-value-snippets
 | Shortcut | Description |
 | ------- | ----------|
 | bvt | Built Value Type |
-| bvts | Built Value Type with Serialization |
+| bvts | Built Value Type (Serializable) |
 | bvd | Built Value Imports & Common Declarations |
 | bve | Built Value Enum |
+| bves | Built Value Enum (Serializable) |
 | bvg | Built Value Generics |
 
 ## Acknowledgements
 
 - Matej Rešetár for the inspiration. Go check out his awesome content on [YouTube](https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA) and [website](https://resocoder.com/)!  
 - David Morgan for the awesome [built_value](https://github.com/google/built_value.dart) Dart package.
+- [fiFoFy](https://github.com/fiFoFy) for the `bves` snippet.
 
 **Enjoy!**  
 
