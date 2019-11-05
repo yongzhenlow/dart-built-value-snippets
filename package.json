@@ -2,7 +2,7 @@
     "name": "dart-built-value-snippets",
     "displayName": "Dart Built Value Snippets",
     "description": "VS Code Snippets for the Dart built_value package",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.37.0"
     },
