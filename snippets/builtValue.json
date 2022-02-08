@@ -42,7 +42,7 @@
                 "\t}",
                 "",
                 "\tstatic ${1} fromJson(String jsonString) {",
-                "\t\treturn serializers.deserializeWith(${1}.serializer, json.decode(jsonString));",
+                "\t\treturn serializers.deserializeWith(${1}.serializer, json.decode(jsonString))!;",
                 "\t}",
                 "",
                 "\tstatic Serializer<${1}> get serializer => _\\$${1/(^[A-z]{1})/${1:/downcase}/}Serializer;",
